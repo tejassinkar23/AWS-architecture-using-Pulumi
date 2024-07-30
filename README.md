@@ -1,8 +1,6 @@
 <h1>
-  # AWS Architecture with EC2, NGINX, and RDS using Pulumi
+   AWS Architecture with EC2, NGINX, and RDS using Pulumi
 </h1>
-
-That's the full AWS architecture created using pulumi code (IaaS)
 
 # Infrastructure Architecture
 This project sets up a cloud infrastructure on AWS using Pulumi, an Infrastructure as Code (IaC) tool. The architecture is designed to host a web application running on an EC2 instance with NGINX, and a MySQL database hosted on Amazon RDS. The setup also includes necessary networking components and security configurations.
