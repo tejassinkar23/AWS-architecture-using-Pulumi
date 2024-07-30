@@ -1,4 +1,4 @@
-# AWS-architecture-using-Pulumi
+# AWS Architecture with EC2, NGINX, and RDS using Pulumi
 
 
 That's the full AWS architecture created using pulumi code (IaaS)
