@@ -13,14 +13,17 @@ Subnets:
 
 **Public Subnet:**
 *A public subnet is created with a CIDR block of 10.0.4.0/24 within the VPC. This subnet is associated with an Internet Gateway to allow inbound and outbound internet access.*
+
 **Private Subnets:**
+
 *Two private subnets are created for hosting the RDS instance.*
 private-subnet-1 with CIDR block 10.0.5.0/24 in Availability Zone ap-south-1a.
 private-subnet-2 with CIDR block 10.0.6.0/24 in Availability Zone ap-south-1b.
-Internet Gateway:
 
-An Internet Gateway is attached to the VPC to allow internet access for resources within the public subnet.
-Route Table:
+# Internet Gateway:
+*An Internet Gateway is attached to the VPC to allow internet access for resources within the public subnet.*
+
+# Route Table:
 *A route table is created for the public subnet with a default route (0.0.0.0/0) pointing to the Internet Gateway. This route table is associated with the public subnet.
 Security Groups:*
 
@@ -50,4 +53,3 @@ The RDS MySQL instance is isolated within private subnets and only accessible fr
 Security groups ensure controlled access to the EC2 and RDS instances.
 An Internet Gateway provides internet access to resources in the public subnet.
 The VPC and subnets provide network isolation and segmentation.
-Usage
