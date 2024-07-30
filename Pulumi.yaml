@@ -1,0 +1,11 @@
+name: awsarch
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+description: AWS architecture
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
