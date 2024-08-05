@@ -39,6 +39,7 @@ Allows inbound MySQL traffic (port 3306) from the public subnet.
 Allows all outbound traffic.
 
 **EC2 Instance with NGINX:**
+
 *An EC2 instance is created in the public subnet, running Amazon Linux 2, with NGINX installed and configured to start on boot.
 The instance is associated with an IAM role to allow access to AWS Systems Manager (SSM) for management.*
 
