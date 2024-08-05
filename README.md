@@ -54,12 +54,8 @@ The instance is associated with the RDS subnet group and the RDS security group 
  
 **Key Points**
 
-*The EC2 instance hosts a web server (NGINX) accessible via the public subnet.*
-
-*The RDS MySQL instance is isolated within private subnets and only accessible from the EC2 instance.*
-
-*Security groups ensure controlled access to the EC2 and RDS instances.*
-
-*An Internet Gateway provides internet access to resources in the public subnet.*
-
+*The EC2 instance hosts a web server (NGINX) accessible via the public subnet.<br>*
+*The RDS MySQL instance is isolated within private subnets and only accessible from the EC2 instance.<br>*
+*Security groups ensure controlled access to the EC2 and RDS instances.<br>*
+*An Internet Gateway provides internet access to resources in the public subnet.<br>*
 *The VPC and subnets provide network isolation and segmentation.*
