@@ -17,9 +17,9 @@ Subnets:
 
 **Private Subnets:**
 
-*Two private subnets are created for hosting the RDS instance.*
+*Two private subnets are created for hosting the RDS instance.
 
-*private-subnet-1 with CIDR block 10.0.5.0/24 in Availability Zone ap-south-1a.
+private-subnet-1 with CIDR block 10.0.5.0/24 in Availability Zone ap-south-1a.
 
 private-subnet-2 with CIDR block 10.0.6.0/24 in Availability Zone ap-south-1b.*
 
