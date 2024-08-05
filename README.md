@@ -7,6 +7,7 @@
 
 # Components
 Virtual Private Cloud (VPC):
+
 A VPC is created to logically isolate the infrastructure within AWS. The VPC has a CIDR block of 10.0.0.0/16 and supports DNS hostnames and DNS resolution.
 Subnets:
 
@@ -47,8 +48,9 @@ The instance is associated with an IAM role to allow access to AWS Systems Manag
 The instance is associated with the RDS subnet group and the RDS security group to control network access.*
 
 **IAM Role and Instance Profile:**
-An IAM role is created and associated with the EC2 instance to grant it permissions to use AWS Systems Manager.
 
+*An IAM role is created and associated with the EC2 instance to grant it permissions to use AWS Systems Manager.*
+ 
 **Key Points**
 
 The EC2 instance hosts a web server (NGINX) accessible via the public subnet.
