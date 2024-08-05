@@ -3,12 +3,12 @@
 </h1>
 
 # Infrastructure Architecture
-This project sets up a cloud infrastructure on AWS using Pulumi, an Infrastructure as Code (IaC) tool. The architecture is designed to host a web application running on an EC2 instance with NGINX, and a MySQL database hosted on Amazon RDS. The setup also includes necessary networking components and security configurations.
+*This project sets up a cloud infrastructure on AWS using Pulumi, an Infrastructure as Code (IaC) tool. The architecture is designed to host a web application running on an EC2 instance with NGINX, and a MySQL database hosted on Amazon RDS. The setup also includes necessary networking components and security configurations.*
 
 # Components
 Virtual Private Cloud (VPC):
-A VPC is created to logically isolate the infrastructure within AWS. The VPC has a CIDR block of 10.0.0.0/16 and supports DNS hostnames and DNS resolution.
-Subnets:
+<h1>A VPC is created to logically isolate the infrastructure within AWS. The VPC has a CIDR block of 10.0.0.0/16 and supports DNS hostnames and DNS resolution.
+Subnets:</h1>
 
 **Public Subnet:**
 *A public subnet is created with a CIDR block of 10.0.4.0/24 within the VPC. This subnet is associated with an Internet Gateway to allow inbound and outbound internet access.*
