@@ -50,8 +50,13 @@ The instance is associated with the RDS subnet group and the RDS security group 
 An IAM role is created and associated with the EC2 instance to grant it permissions to use AWS Systems Manager.
 
 **Key Points**
+
 The EC2 instance hosts a web server (NGINX) accessible via the public subnet.
+
 The RDS MySQL instance is isolated within private subnets and only accessible from the EC2 instance.
+
 Security groups ensure controlled access to the EC2 and RDS instances.
+
 An Internet Gateway provides internet access to resources in the public subnet.
+
 The VPC and subnets provide network isolation and segmentation.
