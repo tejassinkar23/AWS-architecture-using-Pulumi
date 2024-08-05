@@ -17,8 +17,9 @@ Subnets:
 **Private Subnets:**
 
 *Two private subnets are created for hosting the RDS instance.*
-private-subnet-1 with CIDR block 10.0.5.0/24 in Availability Zone ap-south-1a.
-private-subnet-2 with CIDR block 10.0.6.0/24 in Availability Zone ap-south-1b.
+
+*private-subnet-1 with CIDR block 10.0.5.0/24 in Availability Zone ap-south-1a.
+private-subnet-2 with CIDR block 10.0.6.0/24 in Availability Zone ap-south-1b.*
 
 # Internet Gateway:
 *An Internet Gateway is attached to the VPC to allow internet access for resources within the public subnet.*
