@@ -7,10 +7,10 @@
 
 # Components
 Virtual Private Cloud (VPC):
-<h1>A VPC is created to logically isolate the infrastructure within AWS. The VPC has a CIDR block of 10.0.0.0/16 and supports DNS hostnames and DNS resolution.
-Subnets:</h1>
+A VPC is created to logically isolate the infrastructure within AWS. The VPC has a CIDR block of 10.0.0.0/16 and supports DNS hostnames and DNS resolution.
+Subnets:
 
-**Public Subnet:**
+## Public Subnet:
 *A public subnet is created with a CIDR block of 10.0.4.0/24 within the VPC. This subnet is associated with an Internet Gateway to allow inbound and outbound internet access.*
 
 **Private Subnets:**
