@@ -31,8 +31,8 @@ Subnets:
 Security Groups:*
 
 # EC2 Security Group:
-Allows inbound HTTP (port 80) and SSH (port 22) traffic from any IP address (0.0.0.0/0).
-Allows all outbound traffic.
+*Allows inbound HTTP (port 80) and SSH (port 22) traffic from any IP address (0.0.0.0/0).
+Allows all outbound traffic.*
 
 # RDS Security Group:
 Allows inbound MySQL traffic (port 3306) from the public subnet.
