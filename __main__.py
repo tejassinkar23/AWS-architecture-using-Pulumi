@@ -29,7 +29,7 @@ public_subnet = aws.ec2.Subnet("public-subnet",
 #Private Subnet: A private subnet is a subnet that does not automatically assign public IP addresses to instances. 
 private_subnet_1 = aws.ec2.Subnet("private-subnet-1",       #aws.ec2.Subnet is the Pulumi class used to define a subnet.
     vpc_id=vpc.id,
-    cidr_block="10.0.5.0/24",           #defines the range of IP addresses available in this subnet (from 10.0.5.0 to 10.0.5.255)
+    cidr_block="10.0.5.0/24",                               #defines the range of IP addresses available in this subnet (from 10.0.5.0 to 10.0.5.255)
     availability_zone="ap-south-1a"
 )
 
