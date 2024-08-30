@@ -59,4 +59,3 @@ The instance is associated with the RDS subnet group and the RDS security group 
 *Security groups ensure controlled access to the EC2 and RDS instances.<br>*
 *An Internet Gateway provides internet access to resources in the public subnet.<br>*
 *The VPC and subnets provide network isolation and segmentation.*
-
